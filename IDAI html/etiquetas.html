@@ -9,21 +9,54 @@
       <link rel="stylesheet" href="css/estilos.css">
 
    <style>
-      h1 {
+     
+     *{
+      padding: 0;
+      margin: 0;
+     }
+
+     body{
+      font-family: Helvetica, sans-serif;
+      background-color: #f9f9f9;
+      line-height: 1.5;
+     }
+
+      header {
+         position: relative;
+         background-color: #8571eb;
+         padding: 40px 0;
+         border-radius: 30px;
+         text-align: center;
+          }
+
+      header h1 {
+         font-family: Helvetica, sans-serif;
+         font-size: 2.5em;
+         color: #fff;
+         text-shadow: 2px 2px 4px #000000;
+         margin: 0;
+            }
+
+      .logo {
+         position: absolute;
+         top: 50%;
+         left: 30px;
+         transform: translateY(-50%);
+         width: 225px;
+         height: auto;
+         border-radius: 10px;
+            }
+
+     h1 {
         text-align: center;
-        font-family: 'Arial', sans-serif;
+        font-family: Helvetica, sans-serif;
         font-size: 2.5em;
-        color: #12d2bf;
+        color: #fff;
         text-shadow: 2px 2px 4px #000000;
       }
          
-      h1:hover {
-         color: #9963e0;
-         }
-         
-      
       p{
-         font-family: 'Arial', sans-serif;
+         font-family: Helvetica, sans-serif;
         font-size: 1.2em;
         color: #12d2bf;
         line-height: 1.5;
@@ -31,15 +64,22 @@
 
       a{
          color: #000000;
-         font-family: Arial, Helvetica, sans-serif;
+         font-family: Helvetica, sans-serif;
+         text-decoration: none;
       }
 
       a:hover{
          color: #9963e0;
       }
 
+      section{
+        padding: 60px 20px;
+        max-width: 900px;
+        margin: auto; 
+      }
+
       #primerparrafo{
-         font-family: 'Arial', sans-serif;
+         font-family: Helvetica, sans-serif;
         font-size: 1.2em;
         color: #9963e0;
         line-height: 1.5;
@@ -49,14 +89,19 @@
          color: bisque;
       }
 
+
    </style>
 </head>
 
+<header>
+    <img src="img/UN.png" alt="Logotipo de la Universidad" class="logo">
+    <h1>Título principal</h1>
+</header>
+
+
 <body>
-    <h1>Titulo principal </h1>
-
-    <img src="img/UN.png" alt="Logotipo de la Universidad" width="250px" >
-
+    
+   <section>
 
     <p> Para hacer que un archivo sea descargable en una página HTML, se utiliza la etiqueta <b> < a >  </b> 
       <br>
@@ -87,15 +132,18 @@
         <br>
 
 
-     <a href="hobbies.html">  <strong>Hobbies</strong> personales </a> 
+     
+       <a href="hobbies.html">  <strong>Hobbies personales </strong> </a> 
         <br>
-     <a href="academico.html"> <em>escuelas</em> academicas </a> 
+      <a href="academico.html"> <em>escuelas academicas</em> </a> 
         <br>
-     <a href="familia.html"> <i>Familia</i></a> 
+       <a href="familia.html"> <i>Familia</i></a> 
         <br>
-     <a href="noticias.html"> Noticias </a>
+       <a href="noticias.html"> <i>Noticias</i> </a>
         <br>
-    <a href="../artistas/artistasfav.html" >Artista fav</a>    
+        <a href="../artistas/artistasfav.html" ><em>Artista fav</em></a> 
+
+     </section>  
     
          <hr>
             <br>
