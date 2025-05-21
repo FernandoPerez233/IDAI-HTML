@@ -1,12 +1,7 @@
 
     @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap');
-    .ancizar-serif-<style> {
-  font-family: "Ancizar Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 300..900;
-  font-style: normal;
-}
-
+      @import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:wght@300&display=swap');
+      
     *{
       padding: 0;
       margin: 0;
