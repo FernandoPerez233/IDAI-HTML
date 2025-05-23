@@ -17,17 +17,54 @@
     } 
 
     header{
+        color: #f2f2f2;
         background-color: #96ac60;
         text-align: center;
         padding: 20px;
         border-radius: 10px;
         margin: 15px;
-        border-left: 25px  solid #4b5d2c;
-        border-right: 25px solid #4b5d2c;
-        border-bottom: 25px solid #4b5d2c;  
-        box-shadow: 5px 5px 10px #4b5d2c;
+        border-left: 25px  solid #b0705a;
+        border-right: 25px solid #b0705a;
+        border-bottom: 25px solid #b0705a;  
+        box-shadow: 5px 5px 10px #b0705a;
     }
 
+    header h1{
+        font-size: 2.5em;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .encabezado{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        gap: 60px;
+    }
+
+    .yo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 2px solid #b0705a;
+    }
+
+    .nombre{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    html{
+        background-color: #f4edcc;
+    }
+    main{
+        color: #2f2f2f;
+        background-color: #d8cba8;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 15px;
+        text-align: center;
+    }
     section{
         text-align: center;
     }
@@ -38,36 +75,84 @@
         text-decoration: none;
         color: #4b5d2c;
     }   
+
+    footer{
+        background-color: #96ac60;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 15px; 
+        box-shadow: 5px 5px 10px #4b5d2c;
+    }
+
 </style>
 
 <body>
     
     <header>
-        <h1>Mi página personal</h1>
-        <img src="" alt="mipersona" class="yo">
-        <br>    
-        <br>    
-        <p>Hola, soy Fernando Pérez</p>
-        <p>Me gusta la programación y la tecnología.</p>
+        <div class="encabezado">
+             <img src="../IDAI html/img/feid.jpg" alt="mipersona" class="yo">
+            <div class="nombre">
+                <h1>Mi pagina personal</h1>
+                <p>soy un estudiante de Ingeniería en Tecnologías de la Información</p>
+            </div>  
+        </div> 
     </header>
 
-    <section>
-        <h2>Sobre mí</h2>
+        <br>
+        <main>
+            <h2> 
+               <img src="/IDAI html/img/iconos/svgs/regular/face-smile.svg" alt="face-smile"> Sobre mí  
+            </h2>
         <p>Primero me voy a presentar y mi nombre completo es Angel Fernando Pérez García.</p>
         <p>Soy un estudiante de la Universidad Del Norte, actualmente estoy estudiando Ingenieria en tecnologias de 
             la información con amplitud al desarrollo de softwares.</p>
+        </main>
+        <br>
+            <section>
+                <h2>Mis intereses</h2>
+                <p>Me gusta la programación, los videojuegos y la música.</p>
+                <p>En mi tiempo libre disfruto de ver películas y escuchar música, así como de jugar videojuegos.</p>
+            </section>
+
+            <br>
+                <section id="hobbies">
+                    <h2>Mis Hobbies</h2>
+                    <p>Me gusta jugar videojuegos, escuchar música y ver películas.</p>
+                    <p>En mi tiempo libre disfruto de jugar videojuegos y ver películas.</p>
+                    </section>
+            <br>
+                    <section id="RedesSociales">
+                        <h2>Mis redes sociales</h2>
+                        <p>Me puedes encontrar en las siguientes redes sociales:</p>
+                        <ul>
+                            <li><a href="https://www.facebook.com/ferperezgarcia">Facebook</a></li>
+                            <li><a href="https://www.instagram.com/ferperezgarcia">Instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/ferperezgarcia">GitHub</a></li>
+                            <li></li>
+                    </section>
 
             <section id="links">
                 <nav>
         <ul>
+            <br>
+            <br>
+            <br>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="familia.html">Familia</a></li>
             <li><a href="academico.html">Academico</a></li>
             <li><a href="hobbies.html">Hobbies</a></li>
         </ul>
-        
+        </nav>
             </section>
 
-    </section>
+            <br>
+            <br>
+
+            <footer>
+                <p>@ Matricula: 45722</p>
+                <p>@ Angel Fernando Pérez García</p>
+                <p>@ Universidad Del Norte</p>
+            </footer>
 </body>
 </html>
