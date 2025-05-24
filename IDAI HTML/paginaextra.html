@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NFL</title>
+    <style>
+
+        * {
+            text-align: center;
+            font: 1em sans-serif;
+        }
+
+        .tabla{
+            text-align: center;
+            color: orange;
+        }
+
+        .super{
+            text-transform: uppercase;
+            color: yellow;
+        }
+
+        .border{
+
+            color: #f2f2f2;
+            background-color: #f2f2f2;
+            border-inline-start: 15px;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        table {
+            background-color: black;
+            color: #f2f2f2;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+
+    <table class="tabla">
+        <tr>
+            <td>
+                <img src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/steelers_h.jpg" alt="Steelers" width="150" height="150" />
+            </td>
+            <td class="super">¡Los equipos más ganadores del Superbowl!</td>
+            <td>
+                <img src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/patriots_h.jpg" alt="Patriots" width="150" height="150" />
+            </td>
+        </tr>
+        <tr>
+            <td>Los aceros de Pittsburgh fue el primer equipo en lograr 6 triunfos en el Superbowl (1975,1976,1979,1980,2006 y 2009)</td>
+          <td>
+            <hr style="height: 1px; background-color: #f2f2f2; border: none; margin: 8px 0;">
+          </td>
+            <td>Los patriotas de New England es el segundo equipo en lograr 6 triunfos en el Superbowl (2002,2004,2005,2015,2017 y 2019)</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;">
+                (Ganadores de 4 o más trofeos Vince Lombardi)
+            </td>
+        </tr>
+    </table>
+
+        <br>    
+
+    <audio id="miAudio" autoplay loop>
+        <source src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/nfl.mp3" type="audio/mpeg" />
+        audio HTML5.
+    </audio>
+
+    <button onclick="pausarAudio()">Pausar</button>
+    <button onclick="reproducirAudio()">Reproducir</button>
+
+    <script>
+        const audio = document.getElementById("miAudio");
+
+        function pausarAudio() {
+            audio.pause();
+        }
+
+        function reproducirAudio() {
+            audio.play();
+        }
+    </script>
+
+    <br><br>
+
+    <table>
+        <tr>
+            <td>
+                <img src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/packers_h.jpg" alt="Packers" width="150" height="150" />
+            </td>
+            <td>
+                <img src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/gigants_h.jpg" alt="Gigants" width="150" height="150" />
+            </td>
+            <td>
+                <img src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/dallas_h.jpg" alt="Dallas" width="150" height="150" />
+            </td>
+            <td>
+                <img src="img/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL-20250524T220852Z-1-001/TAREA 8 PRACTICA EXTRA IDAI 1ER PARCIAL/49s_h.jpg" alt="49s" width="150" height="150" />
+            </td>
+        </tr>
+        <tr>
+            <td>1972, 1978, 1993, 1994 y 1996</td>
+            <td>Tex1972, 1978, 1993, 1994 y 1996to</td>
+            <td>1972, 1978, 1993, 1994 y 1996</td>
+            <td>1972, 1978, 1993, 1994 y 1996</td>
+        </tr>
+    </table>
+
+    <hr style="background-color: #f2f2f2;" />
+
+    <div style="background-color: white; color: black; padding: 10px; text-align: center; font-weight: bold;">
+        Broncos (3), Raiders (3), Redskins (3), Delfines (2), Potros (2).
+    </div>
+
+    <hr style="background-color: #f2f2f2;" />
+    <hr style="background-color: blueviolet;" />
+
+    <p>Si quieres conocer más ingresa a <a href="https://www.nfl.com/international/" target="_blank" rel="noopener noreferrer">NFL</a></p>
+
+    <hr style="background-color: blueviolet;" />
+
+    <footer>@Angel Fernando Pérez García @Matricula:45722</footer>
+
+</body>
+</html>
