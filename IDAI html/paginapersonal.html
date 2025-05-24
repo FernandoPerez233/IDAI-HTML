@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PagPersonl</title>
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="fontawesome/css/fontawesome.min.css">
-    <!-- Opción rápida de prueba -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
 
@@ -47,6 +47,7 @@
     }
 
     .yo{
+        color: #4b5d2c;
         width: 100px;
         height: 100px;
         border-radius: 50%;
@@ -69,16 +70,44 @@
         border-radius: 10px;
         margin: 15px;
         text-align: center;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
     }
     section{
         text-align: center;
     }
 
+    #intereses{
+        
+        padding: 20px;
+        border-radius: 10px;
+        margin: 15px;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+    }
+
+    #intereses h2{
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: black;   
+    }
     #hobbies{
         background-color: #d8cba8;
         padding: 20px;
         border-radius: 10px;
         margin: 15px;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+    }
+
+    #hobbies h2{
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: #4b5d2c;   
+    }
+
+    #RedesSociales{
+        padding: 20px;
+        border-radius: 10px;
+        margin: 15px;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
     }
 
     #trabajo{
@@ -86,6 +115,34 @@
         padding: 20px;
         border-radius: 10px;
         margin: 15px;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+    }
+
+    #trabajo h3{
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: #4b5d2c;   
+    }
+
+    #habilidades {
+  
+        margin: 15px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        color: #2f2f2f;
+        box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+    }
+
+    #habilidades h2 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+        color: black;   
+    }
+
+    #habilidades li {
+        margin-bottom: 10px;
+        font-size: 1.1em;
     }
 
     a{
@@ -123,15 +180,15 @@
         <br>
         <main>
             
-              <h2><i class="fas fa-user"></i> Sobre mí</h2>
+              <h2> <i class="fas fa-user"></i> Sobre mí </h2>
             <br>
         <p>Primero me voy a presentar y mi nombre completo es Angel Fernando Pérez García.</p>
         <p>Soy un estudiante de la Universidad Del Norte, actualmente estoy estudiando Ingenieria en tecnologias de 
             la información con amplitud al desarrollo de softwares.</p>
         </main>
         <br>
-            <section>
-                <h2>Mis intereses</h2>
+            <section id="intereses">
+                <h2><i class="fas fa-star"></i> Mis intereses</h2>
                 <br>
                 <p>Me gusta la programación, los videojuegos y la música.</p>
                 <p>En mi tiempo libre disfruto de ver películas y escuchar música, así como de jugar videojuegos.</p>
@@ -139,25 +196,30 @@
 
             <br>
                 <section id="hobbies">
-                    <h2>Mis Hobbies</h2>
+                    <h2><i class="fas fa-gamepad"></i> Mis hobbies</h2>
                     <br>
-                    <p>Me gusta jugar videojuegos, escuchar música y ver películas.</p>
-                    <p>En mi tiempo libre disfruto de jugar videojuegos y ver películas.</p>
+                    <p>Me apasiona sumergirme en el mundo de los videojuegos, ya que no solo los disfruto como forma de entretenimiento, sino también como una oportunidad para explorar historias, resolver desafíos lógicos y conocer nuevas mecánicas de interacción. Jugar videojuegos me permite desarrollar habilidades como la toma de decisiones rápidas, el pensamiento estratégico y la coordinación.
+                    También soy un gran amante de la música. Escuchar diferentes géneros y artistas me ayuda a relajarme, concentrarme y, muchas veces, encontrar inspiración. Desde ritmos energéticos hasta melodías suaves, la música siempre está presente en mi día a día, 
+                    ya sea mientras estudio, trabajo o simplemente descanso.
+                    </p>
+                    <p>Además, ver películas es una de mis actividades favoritas durante el tiempo libre. Me encanta disfrutar de buenas historias, ya sean de ciencia ficción, drama, comedia o acción. 
+                    Las películas no solo me entretienen, sino que también me invitan a reflexionar sobre distintas realidades, culturas y emociones.
+                    En general, mi tiempo libre lo dedico a actividades que me permiten desconectarme, aprender y disfrutar, siempre buscando un equilibrio entre la diversión, el desarrollo personal y el descanso.</p>
                     </section>
             <br>
                     <section id="RedesSociales">
-                        <h2>Mis redes sociales</h2>
+                        <h2>	<i class="fas fa-globe"></i> Redes sociales </h2>
                         <br>
                         <p> <i class="fa-contact-book"> </i>Me puedes encontrar en las siguientes redes sociales:</p>
-                        <ul>
-                            <li><a href="https://www.facebook.com/ferperezgarcia">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/ferperezgarcia">Instagram</a></li>
-                            <li><a href="https://www.linkedin.com/in/ferperezgarcia">GitHub</a></li>
+                        <ul type="circle" style="list-style: none; padding: 0; margin-top: 15px;">
+                            <li><a href="http://wa.me/+528127619275">WhatsApp</a></li>
+                            <li><a href="https://www.instagram.com/angelfpg23">Instagram</a></li>
+                            <li><a href="https://github.com/FernandoPerez233/">GitHub</a></li>
                             <li></li>
                     </section>
-
+        <br>
                     <section id="trabajo">
-                        <h3>Lugares de trabajo</h3>
+                        <h3><i class="fas fa-briefcase"></i>Trabajo</h3>
                         <br>
                 <p>
                     Actualmente me encuentro en búsqueda de oportunidades laborales y de prácticas profesionales que me permitan 
@@ -172,7 +234,20 @@
                     que me ayuden a crecer en mi carrera profesional. 
                 </p>
                     </section>
+                <br>
 
+           <section id="habilidades">
+             <h2><i class="fas fa-laptop-code"></i> Mis habilidades</h2>
+                <ul type="circle" style="list-style: none; padding: 0; margin-top: 15px;">
+                  <li><i class="fas fa-code"></i> Programación en HTML, CSS y JavaScript</li>
+                  <li><i class="fas fa-database"></i> Conocimientos básicos en bases de datos (MySQL)</li>
+                  <li><i class="fas fa-terminal"></i> Uso de Git y GitHub</li>
+                  <li><i class="fas fa-cogs"></i> Resolución de problemas y pensamiento lógico</li>
+                  <li><i class="fas fa-users"></i> Trabajo en equipo y comunicación</li>
+  </ul>
+</section>
+
+                
             <section id="links">
 
                 <nav>
@@ -192,9 +267,9 @@
             <br>
 
             <footer>
-                <p>@ Matricula: 45722</p>
-                <p>@ Angel Fernando Pérez García</p>
-                <p>@ Universidad Del Norte</p>
+                <p>@ Matricula: 45722 </p>
+                <p> @Angel Fernando Pérez García </p>
+                <p> @Universidad Del Norte </p>
             </footer>
 </body>
 </html>
